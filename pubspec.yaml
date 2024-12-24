@@ -1,7 +1,9 @@
 name: flutter_datetime_format
-description: "A new Flutter plugin project."
-version: 0.0.1
-homepage:
+description: "A simple Flutter plugin for formatting DateTime objects into custom date and time strings.
+  This package supports predefined aliases for date/time placeholders and custom formats.
+  It also supports formatting both relative and absolute dates for flexible usage."
+version: 0.0.2
+homepage: https://github.com/Kuntal-Gain/flutter_datetime_format
 
 environment:
   sdk: ^3.5.1
@@ -10,6 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.20.1
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
